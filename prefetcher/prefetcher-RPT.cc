@@ -89,11 +89,11 @@ void prefetch_now(AccessStat stat){
 void prefetch_access(AccessStat stat)
 {
 
-  if(stat.miss)
-	{
+  //if(stat.miss)
+	//{
 		//stat.mem_addr &= -BLOCK_SIZE;
 		prefetch_now(stat);
-	}
+	//}
 
 }
 

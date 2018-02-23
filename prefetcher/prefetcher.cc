@@ -9,7 +9,7 @@
 #include <vector>
 
 //Struct for the Delta Table
-const int numbDelt = 4;
+const int numbDelt = 8;
 struct deltaTable{
   Addr lastAddr, lastPref;
   int ptrDelta;

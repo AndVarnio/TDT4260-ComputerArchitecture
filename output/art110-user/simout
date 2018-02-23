@@ -1,0 +1,31 @@
+M5 Simulator System
+
+Copyright (c) 2001-2008
+The Regents of The University of Michigan
+All Rights Reserved
+
+
+M5 compiled Feb 23 2018 13:38:51
+M5 revision Unknown
+M5 started Feb 23 2018 13:38:55
+M5 executing on me-870Z5G-880Z5F
+command line: m5/build/ALPHA_SE/m5.opt --remote-gdb-port=0 -re --outdir=output/art110-user m5/configs/example/se.py --checkpoint-dir=lib/cp --checkpoint-restore=1000000000 --at-instruction --caches --l2cache --standard-switch --warmup-insts=10000000 --max-inst=10000000 --l2size=1MB --membus-width=8 --membus-clock=400MHz --mem-latency=30ns --bench=art110 --prefetcher=on_access=true:policy=proxy
+Global frequency set at 1000000000000 ticks per second
+Creating prefetcher proxy
+Restoring checkpoint ...
+Restoring from checkpoint
+Done.
+Switch at instruction count:1
+info: Entering event queue @ 500893751500.  Starting simulation...
+Switched CPUS @ cycle = 500893752500
+Changing memory mode to timing
+switching cpus
+Switch at instruction count:10000000
+info: Entering event queue @ 500893752500.  Starting simulation...
+Switching CPUS @ cycle = 556741305000
+Simulation ends instruction count:10000000
+info: Entering event queue @ 556741305000.  Starting simulation...
+switching cpus
+**** REAL SIMULATION ****
+info: Entering event queue @ 556741380000.  Starting simulation...
+Exiting @ cycle 596383108500 because a thread reached the max instruction count
